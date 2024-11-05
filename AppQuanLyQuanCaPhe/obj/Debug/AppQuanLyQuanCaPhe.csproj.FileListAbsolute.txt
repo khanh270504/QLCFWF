@@ -1,0 +1,13 @@
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\bin\Debug\AppQuanLyQuanCaPhe.exe.config
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\bin\Debug\AppQuanLyQuanCaPhe.exe
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\bin\Debug\AppQuanLyQuanCaPhe.pdb
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.csproj.AssemblyReference.cache
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.fLogin.resources
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.Properties.Resources.resources
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.csproj.GenerateResource.cache
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.csproj.CoreCompileInputs.cache
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.exe
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.pdb
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.fTableManager.resources
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.fAccountProfile.resources
+C:\Users\THANH\source\repos\AppQuanLyQuanCaPhe\AppQuanLyQuanCaPhe\obj\Debug\AppQuanLyQuanCaPhe.fAdmin.resources
