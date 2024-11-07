@@ -24,5 +24,21 @@ namespace AppQuanLyQuanCaPhe.DTO
 			DataTable result = DataProvider.Instance.ExecuteQuery(query, new object[] { userName, passWord });
 			return result.Rows.Count > 0;
 		}
+		public bool UpdateAccount(string userName,string displayName,string pass,string newPass)
+		{
+			int result = DataProvider.Instance.ExecuteNonQuery("exec USP_UpdateAccount @UserName , @DisplayName , @Password , @NewPassword ",new object[] {userName,displayName,pass,newPass});
+			return result > 0;
+		}
+		public Account GetAccountByUserName(string userName)
+		{
+			string query = "select * from Account where UserName = @userName";
+			DataTable data = DataProvider.Instance.ExecuteQuery(query, new object[] { userName });
+			foreach (DataRow item in data.Rows)
+			{
+				return new Account(item);
+			}
+			return null; 
+	    }
+
 	}
 }

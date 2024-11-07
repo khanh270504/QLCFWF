@@ -15,7 +15,7 @@ namespace AppQuanLyQuanCaPhe.DAO
 		internal static TableDAO Instance
 		{
 			get { if (instance == null) instance = new TableDAO(); return TableDAO.instance; }
-			private set {TableDAO.instance = value; }
+			private set { TableDAO.instance = value; }
 		}
 		public static int TableWidth = 100;
 		public static int TableHeight = 80;
@@ -30,6 +30,10 @@ namespace AppQuanLyQuanCaPhe.DAO
 				tableList.Add(table);
 			}
 			return tableList;
+		}
+		public void SwitchTable(int id1, int id2)
+		{
+			DataProvider.Instance.ExecuteQuery("USP_SwitchTable @TableID1 , @TableID2 ", new object[] { id1, id2 });
 		}
 	}
 }

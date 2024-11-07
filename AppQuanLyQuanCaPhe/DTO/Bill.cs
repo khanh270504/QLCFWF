@@ -28,6 +28,7 @@ namespace AppQuanLyQuanCaPhe.DTO
 				this.DateCheckOut = (DateTime?)dataCheckoutTemp;
 			}
 			this.Status = (int)row["Status"];
+			if (row["Discount"].ToString() != "")
 			this.Discount = (int)row["Discount"];
  			
 

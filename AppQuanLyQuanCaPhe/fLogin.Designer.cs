@@ -90,7 +90,7 @@
 			this.txbPassWord.Name = "txbPassWord";
 			this.txbPassWord.Size = new System.Drawing.Size(401, 22);
 			this.txbPassWord.TabIndex = 1;
-			this.txbPassWord.Text = "12345";
+			this.txbPassWord.Text = "admin";
 			this.txbPassWord.UseSystemPasswordChar = true;
 			// 
 			// label2
@@ -118,7 +118,8 @@
 			this.txbLogin.Name = "txbLogin";
 			this.txbLogin.Size = new System.Drawing.Size(401, 22);
 			this.txbLogin.TabIndex = 1;
-			this.txbLogin.Text = "nhanh";
+			this.txbLogin.Text = "admin";
+			this.txbLogin.TextChanged += new System.EventHandler(this.txbLogin_TextChanged);
 			// 
 			// label1
 			// 

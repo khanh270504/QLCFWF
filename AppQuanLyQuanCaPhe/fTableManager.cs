@@ -16,13 +16,32 @@ namespace AppQuanLyQuanCaPhe
 {
 	public partial class fTableManager : Form
 	{
-		public fTableManager()
+		private Account loginAccount;
+
+		public Account LoginAccount 
+		{ 
+			get { return loginAccount; }
+			set {  loginAccount = value;ChangeAccount(LoginAccount.Type);  }
+		}
+
+		public fTableManager(Account acc)
 		{
 			InitializeComponent();
+
+			this.LoginAccount = acc;
 			LoadTable();
 			LoadCategory();
+			LoadComboboxTable(cbSwitchTable);
 		}
+
 		#region Method
+		void ChangeAccount(int type)
+		{
+			adminToolStripMenuItem.Enabled = type == 1;
+			đăngNhậpToolStripMenuItem.Text += " (" + LoginAccount.DisplayName + ")";
+		}
+		
+		
 		void LoadCategory()
 		{
 			List<Category> listCategory = CategoryDAO.Instance.GetListCategory();
@@ -78,6 +97,11 @@ namespace AppQuanLyQuanCaPhe
 			CultureInfo culture = new CultureInfo("vi-VN");
 			txbTotalPrice.Text = totalPrice.ToString("c",culture);
 		}
+		void LoadComboboxTable(ComboBox cb)
+		{
+			cb.DataSource = TableDAO.Instance.LoadTableList();
+			cb.DisplayMember = "Name";
+		}
 
 		#endregion
 		#region Events
@@ -89,7 +113,7 @@ namespace AppQuanLyQuanCaPhe
 		}
 		private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
 		{
-			fAccountProfile f = new fAccountProfile();
+			fAccountProfile f = new fAccountProfile(loginAccount);
 			f.ShowDialog();	
 		}
 
@@ -102,12 +126,38 @@ namespace AppQuanLyQuanCaPhe
 		{
 			this.Close();
 		}
-
+	
 		private void adminToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			fAdmin f = new fAdmin();
+			f.InsertFood += F_InsertFood;
+			f.DeleteFood += F_DeleteFood;
+			f.UpdateFood += F_UpdateFood;
 			f.ShowDialog();
 		}
+
+		private void F_InsertFood(object sender, EventArgs e)
+		{
+			LoadFoodListByCategoryID((cbCategory.SelectedItem as Category).ID);
+			if(lsvBill.Tag != null)
+			ShowBill((lsvBill.Tag as Table).ID);
+		}
+
+		private void F_UpdateFood(object sender, EventArgs e)
+		{
+			LoadFoodListByCategoryID((cbCategory.SelectedItem as Category).ID);
+			if (lsvBill.Tag != null)
+				ShowBill((lsvBill.Tag as Table).ID);
+		}
+
+		private void F_DeleteFood(object sender, EventArgs e)
+		{
+			LoadFoodListByCategoryID((cbCategory.SelectedItem as Category).ID);
+			if (lsvBill.Tag != null)
+				ShowBill((lsvBill.Tag as Table).ID);
+			LoadTable();
+		}
+
 		private void cbCategory_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			int id = 0;
@@ -123,6 +173,10 @@ namespace AppQuanLyQuanCaPhe
 		private void btnAddFood_Click(object sender, EventArgs e)
 		{
 			Table table = lsvBill.Tag as Table;
+			if(table == null)
+			{
+				MessageBox.Show("Hãy chọn bàn");
+			}	
 			int idBill = BillDAO.Instance.GetUncheckBillIDByTableID(table.ID);
 			int foodID = (cbFood.SelectedItem as Food).Id;
 			int count = (int)nmFoodCount.Value;
@@ -139,6 +193,7 @@ namespace AppQuanLyQuanCaPhe
 			LoadTable();
 
 		}
+	
 		private void btnCheckOut_Click(object sender, EventArgs e)
 		{
 			Table table = lsvBill.Tag as Table;
@@ -148,13 +203,28 @@ namespace AppQuanLyQuanCaPhe
 			double finalTotalPrice = totalPrice - (totalPrice / 100) * discount;
 			if(idBill != -1)
 			{
-				if(MessageBox.Show(string.Format("Bạn có chắc chắn muốn thanh toán hóa đơn cho bàn {0} \n Với Giá gốc là {1} Vnd , Giảm giá là {2} % \n Số tiền phải thanh toán là {3} Vnd ", table.Name,totalPrice*1000,discount,finalTotalPrice*1000),"Thông báo !!!",MessageBoxButtons.OKCancel)==System.Windows.Forms.DialogResult.OK)
+				if(MessageBox.Show(string.Format("Bạn có chắc chắn muốn thanh toán hóa đơn cho bàn {0} \n Với Giá gốc là {1} đ , Giảm giá là {2} % \n Số tiền phải thanh toán là {3} đ ", table.Name,totalPrice*1000,discount,finalTotalPrice*1000),"Thông báo !!!",MessageBoxButtons.OKCancel)==System.Windows.Forms.DialogResult.OK)
 				{
-					BillDAO.Instance.CheckOut(idBill,discount);
+					BillDAO.Instance.CheckOut(idBill,discount,(float)finalTotalPrice);
 					ShowBill(table.ID);
 					LoadTable();
 				}	
 			}	
+		}
+		private void btnSwitchTable_Click(object sender, EventArgs e)
+		{
+			
+			int id1 = (lsvBill.Tag as Table).ID;
+
+			int id2 = (cbSwitchTable.SelectedItem as Table).ID;
+			if (MessageBox.Show(string.Format("Bạn có thực sự muốn chuyển bàn {0} qua bàn {1}", (lsvBill.Tag as Table).Name, (cbSwitchTable.SelectedItem as Table).Name), "Thông Báo",MessageBoxButtons.OKCancel)==System.Windows.Forms.DialogResult.OK)
+			{
+
+				TableDAO.Instance.SwitchTable(id1, id2);
+				LoadTable();
+			}
+
+
 		}
 		#endregion
 
@@ -168,6 +238,6 @@ namespace AppQuanLyQuanCaPhe
 
 		}
 
-		
+	
 	}
 }

@@ -175,6 +175,7 @@
 			this.btnUpdate.TabIndex = 3;
 			this.btnUpdate.Text = "Cập nhật";
 			this.btnUpdate.UseVisualStyleBackColor = true;
+			this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
 			// 
 			// label1
 			// 
@@ -219,6 +220,7 @@
 			this.Controls.Add(this.panel2);
 			this.Name = "fAccountProfile";
 			this.Text = "fAccountProfile";
+			this.Load += new System.EventHandler(this.fAccountProfile_Load);
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
 			this.panel3.ResumeLayout(false);

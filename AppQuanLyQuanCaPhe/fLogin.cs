@@ -21,10 +21,11 @@ namespace AppQuanLyQuanCaPhe
 		private void btnLogin_Click(object sender, EventArgs e)
 		{
 			string userName = txbLogin.Text;
-			string password = txbPassWord.Text;
-			if (Login(userName,password))
+			string passWord = txbPassWord.Text;
+			if (Login(userName,passWord))
 			{
-				fTableManager f = new fTableManager();
+				Account loginAccount = AccountDAO.Instace.GetAccountByUserName(userName);
+				fTableManager f = new fTableManager(loginAccount);
 				this.Hide();
 				f.ShowDialog();
 				this.Show();
@@ -55,6 +56,11 @@ namespace AppQuanLyQuanCaPhe
 		bool Login(string userName ,string passWord)
 		{
 			return AccountDAO.Instace.Login(userName,passWord);
+		}
+
+		private void txbLogin_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

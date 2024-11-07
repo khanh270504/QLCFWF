@@ -91,14 +91,14 @@
 			// đăngNhậpToolStripMenuItem
 			// 
 			this.đăngNhậpToolStripMenuItem.Name = "đăngNhậpToolStripMenuItem";
-			this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+			this.đăngNhậpToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
 			this.đăngNhậpToolStripMenuItem.Text = "Thông tin cá nhân";
 			this.đăngNhậpToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpToolStripMenuItem_Click);
 			// 
 			// đăngXuấtToolStripMenuItem
 			// 
 			this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-			this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
+			this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
 			this.đăngXuấtToolStripMenuItem.Text = "Đăng xuất";
 			this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
 			// 
@@ -190,6 +190,7 @@
 			this.btnSwitchTable.TabIndex = 6;
 			this.btnSwitchTable.Text = "Chuyển bàn";
 			this.btnSwitchTable.UseVisualStyleBackColor = true;
+			this.btnSwitchTable.Click += new System.EventHandler(this.btnSwitchTable_Click);
 			// 
 			// nmDisCount
 			// 
