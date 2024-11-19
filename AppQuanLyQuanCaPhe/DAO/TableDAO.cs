@@ -35,5 +35,25 @@ namespace AppQuanLyQuanCaPhe.DAO
 		{
 			DataProvider.Instance.ExecuteQuery("USP_SwitchTable @TableID1 , @TableID2 ", new object[] { id1, id2 });
 		}
+		public bool InsertTable(string name)
+		{
+			string query = "USP_InsertTable @Name";
+			int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { name });
+			return result > 0;
+		}
+
+		public bool UpdateTable(int id, string name)
+		{
+			string query = "USP_UpdateTable @ID , @Name";
+			int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { id, name });
+			return result > 0;
+		}
+
+		public bool DeleteTable(int id)
+		{
+			string query = string.Format("USP_DeleteTableFood @ID");
+			int result = DataProvider.Instance.ExecuteNonQuery(query, new object[] { id });
+			return result > 0;
+		}
 	}
 }

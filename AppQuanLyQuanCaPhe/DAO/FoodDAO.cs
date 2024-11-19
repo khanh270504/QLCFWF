@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -63,6 +64,19 @@ namespace AppQuanLyQuanCaPhe.DAO
 			string query = string.Format("Delete dbo.Food where id = {0} ", idFood);
 			int result = DataProvider.Instance.ExecuteNonQuery(query);
 			return result > 0;
+		}
+		public List<Food> SearchFoodByName(string name)
+		{
+			List<Food> list =  new List<Food>();
+			string query = string.Format("select * from dbo.Food where dbo.fuConvertToUnsign1(name) like N'%' + dbo.fuConvertToUnsign1(N'{0}') +'%'", name);
+			DataTable data = DataProvider.Instance.ExecuteQuery(query);
+			foreach (DataRow item in data.Rows)
+			{
+				Food food = new Food(item);
+				list.Add(food);
+
+			}
+			return list;
 		}
 
 	}

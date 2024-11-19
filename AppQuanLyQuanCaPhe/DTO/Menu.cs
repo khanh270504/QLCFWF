@@ -47,7 +47,8 @@ namespace AppQuanLyQuanCaPhe.DTO
 		}
 		public int Price
 		{
-			get { return price; }		
+			get { return price; }
+		
 			set
 			{
 				price = value;

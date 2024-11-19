@@ -130,6 +130,7 @@ namespace AppQuanLyQuanCaPhe
 		private void adminToolStripMenuItem_Click(object sender, EventArgs e)
 		{
 			fAdmin f = new fAdmin();
+			f.loginAccount = LoginAccount;
 			f.InsertFood += F_InsertFood;
 			f.DeleteFood += F_DeleteFood;
 			f.UpdateFood += F_UpdateFood;
@@ -176,6 +177,7 @@ namespace AppQuanLyQuanCaPhe
 			if(table == null)
 			{
 				MessageBox.Show("Hãy chọn bàn");
+				return;
 			}	
 			int idBill = BillDAO.Instance.GetUncheckBillIDByTableID(table.ID);
 			int foodID = (cbFood.SelectedItem as Food).Id;
