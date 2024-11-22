@@ -43,10 +43,14 @@ namespace AppQuanLyQuanCaPhe
 
 		private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			if(MessageBox.Show("Bạn có thực sự muốn thoát chương trình ?","Thông báo",MessageBoxButtons.OKCancel)!=System.Windows.Forms.DialogResult.OK)
+			if (MessageBox.Show("Bạn có thực sự muốn thoát chương trình?",
+					"Thông báo",
+					MessageBoxButtons.OKCancel,
+					MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.OK)
 			{
 				e.Cancel = true;
-			}	
+			}
+
 		}
 
 		private void panel1_Paint(object sender, PaintEventArgs e)

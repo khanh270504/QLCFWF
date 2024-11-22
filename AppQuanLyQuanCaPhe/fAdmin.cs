@@ -1,6 +1,7 @@
 ﻿using AppQuanLyQuanCaPhe.DAO;
 using AppQuanLyQuanCaPhe.DTO;
 using Microsoft.Reporting.WinForms;
+using OfficeOpenXml;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,12 +10,14 @@ using System.Data.SqlClient;
 using System.Diagnostics;
 using System.Diagnostics.Eventing.Reader;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+
 
 namespace AppQuanLyQuanCaPhe
 {
@@ -190,11 +193,57 @@ namespace AppQuanLyQuanCaPhe
 		#region events
 		private void btnSearchFood_Click(object sender, EventArgs e)
 		{
-			foodList.DataSource = SearchFoodByName(txbSearchFoodName.Text);
+			//foodList.DataSource = SearchFoodByName(txbSearchFoodName.Text);
+			string searchText = txbSearchFoodName.Text.Trim();
+
+			
+			if (string.IsNullOrEmpty(searchText))
+			{
+				MessageBox.Show("Vui lòng nhập từ khóa để tìm kiếm!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			
+			if (int.TryParse(searchText, out _))
+			{
+				MessageBox.Show("Từ khóa tìm kiếm không được là số. Vui lòng nhập tên món ăn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			List<Food> listFood = SearchFoodByName(searchText);
+			if (listFood.Count == 0)
+			{
+				MessageBox.Show("Không tìm thấy món ăn phù hợp với từ khóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				return;
+			}		
+			foodList.DataSource = listFood;
 		}
 		private void btnSearchCategory_Click(object sender, EventArgs e)
 		{
-			dtgvCatagory.DataSource = SearchCategoryByName(txbSearchCategory.Text);
+			//dtgvCatagory.DataSource = SearchCategoryByName(txbSearchCategory.Text);
+			string searchText = txbSearchCategory.Text.Trim();
+
+			if (string.IsNullOrEmpty(searchText))
+			{
+				MessageBox.Show("Vui lòng nhập từ khóa để tìm kiếm danh mục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			if (int.TryParse(searchText, out _))
+			{
+				MessageBox.Show("Từ khóa tìm kiếm không được là số. Vui lòng nhập tên danh mục!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+				return;
+			}
+
+			var categoryList = SearchCategoryByName(searchText);
+
+			if (categoryList == null || categoryList.Count == 0)
+			{
+				MessageBox.Show("Không tìm thấy danh mục phù hợp với từ khóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				return;
+			}
+
+			dtgvCatagory.DataSource = categoryList;
 		}
 		private void btnViewBill_Click(object sender, EventArgs e)
 		{
@@ -488,6 +537,39 @@ namespace AppQuanLyQuanCaPhe
 			string userName = txbUserName.Text;
 			ResetPass(userName);
 		}
+
+		private void btnXuatExcel_Click(object sender, EventArgs e)
+		{
+			Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
+			excelApp.Visible = true; 
+
+			
+			Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Add(Type.Missing);
+			Microsoft.Office.Interop.Excel.Worksheet worksheet = workbook.Sheets[1];
+			worksheet.Name = "Dữ liệu từ DataGridView";
+
 		
+			for (int i = 1; i <= dtgvBill.Columns.Count; i++)
+			{
+				worksheet.Cells[1, i] = dtgvBill.Columns[i - 1].HeaderText;
+			}
+
+			// Ghi dữ liệu từ DataGridView vào Excel
+			for (int i = 0; i < dtgvBill.Rows.Count; i++)
+			{
+				for (int j = 0; j < dtgvBill.Columns.Count; j++)
+				{
+					worksheet.Cells[i + 2, j + 1] = dtgvBill.Rows[i].Cells[j].Value?.ToString();
+				}
+			}
+			worksheet.Columns.AutoFit();
+		}
+
+		private void dtgvBill_CellContentClick(object sender, DataGridViewCellEventArgs e)
+		{
+
+		}
 	}
+
 }
+

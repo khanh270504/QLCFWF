@@ -159,9 +159,10 @@
 			// btnExit
 			// 
 			this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+			this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnExit.Location = new System.Drawing.Point(568, 380);
 			this.btnExit.Name = "btnExit";
-			this.btnExit.Size = new System.Drawing.Size(111, 38);
+			this.btnExit.Size = new System.Drawing.Size(129, 58);
 			this.btnExit.TabIndex = 2;
 			this.btnExit.Text = "Thoát";
 			this.btnExit.UseVisualStyleBackColor = true;
@@ -169,9 +170,10 @@
 			// 
 			// btnUpdate
 			// 
-			this.btnUpdate.Location = new System.Drawing.Point(421, 380);
+			this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnUpdate.Location = new System.Drawing.Point(398, 380);
 			this.btnUpdate.Name = "btnUpdate";
-			this.btnUpdate.Size = new System.Drawing.Size(109, 38);
+			this.btnUpdate.Size = new System.Drawing.Size(132, 58);
 			this.btnUpdate.TabIndex = 3;
 			this.btnUpdate.Text = "Cập nhật";
 			this.btnUpdate.UseVisualStyleBackColor = true;

@@ -31,6 +31,7 @@
 			this.tcAdmin = new System.Windows.Forms.TabControl();
 			this.tpBill = new System.Windows.Forms.TabPage();
 			this.panel2 = new System.Windows.Forms.Panel();
+			this.btnXuatExcel = new System.Windows.Forms.Button();
 			this.btnViewBill = new System.Windows.Forms.Button();
 			this.dtpToDate = new System.Windows.Forms.DateTimePicker();
 			this.dtpFromDate = new System.Windows.Forms.DateTimePicker();
@@ -96,6 +97,7 @@
 			this.btnAddTable = new System.Windows.Forms.Button();
 			this.tpAccount = new System.Windows.Forms.TabPage();
 			this.panel21 = new System.Windows.Forms.Panel();
+			this.btnResetPassword = new System.Windows.Forms.Button();
 			this.panel22 = new System.Windows.Forms.Panel();
 			this.nmAccountType = new System.Windows.Forms.NumericUpDown();
 			this.label10 = new System.Windows.Forms.Label();
@@ -111,7 +113,6 @@
 			this.btnEditAccount = new System.Windows.Forms.Button();
 			this.btnDeleteAccount = new System.Windows.Forms.Button();
 			this.btnAddAccount = new System.Windows.Forms.Button();
-			this.btnResetPassword = new System.Windows.Forms.Button();
 			this.tcAdmin.SuspendLayout();
 			this.tpBill.SuspendLayout();
 			this.panel2.SuspendLayout();
@@ -159,10 +160,10 @@
 			this.tcAdmin.Controls.Add(this.tbFoodCategory);
 			this.tcAdmin.Controls.Add(this.tpTable);
 			this.tcAdmin.Controls.Add(this.tpAccount);
-			this.tcAdmin.Location = new System.Drawing.Point(0, 36);
+			this.tcAdmin.Location = new System.Drawing.Point(12, 12);
 			this.tcAdmin.Name = "tcAdmin";
 			this.tcAdmin.SelectedIndex = 0;
-			this.tcAdmin.Size = new System.Drawing.Size(928, 529);
+			this.tcAdmin.Size = new System.Drawing.Size(940, 564);
 			this.tcAdmin.TabIndex = 0;
 			// 
 			// tpBill
@@ -172,13 +173,14 @@
 			this.tpBill.Location = new System.Drawing.Point(4, 25);
 			this.tpBill.Name = "tpBill";
 			this.tpBill.Padding = new System.Windows.Forms.Padding(3);
-			this.tpBill.Size = new System.Drawing.Size(920, 500);
+			this.tpBill.Size = new System.Drawing.Size(932, 535);
 			this.tpBill.TabIndex = 0;
 			this.tpBill.Text = "Doanh thu";
 			this.tpBill.UseVisualStyleBackColor = true;
 			// 
 			// panel2
 			// 
+			this.panel2.Controls.Add(this.btnXuatExcel);
 			this.panel2.Controls.Add(this.btnViewBill);
 			this.panel2.Controls.Add(this.dtpToDate);
 			this.panel2.Controls.Add(this.dtpFromDate);
@@ -187,11 +189,23 @@
 			this.panel2.Size = new System.Drawing.Size(906, 50);
 			this.panel2.TabIndex = 1;
 			// 
+			// btnXuatExcel
+			// 
+			this.btnXuatExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnXuatExcel.Location = new System.Drawing.Point(464, 2);
+			this.btnXuatExcel.Name = "btnXuatExcel";
+			this.btnXuatExcel.Size = new System.Drawing.Size(183, 47);
+			this.btnXuatExcel.TabIndex = 4;
+			this.btnXuatExcel.Text = "Mở trong excel";
+			this.btnXuatExcel.UseVisualStyleBackColor = true;
+			this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
+			// 
 			// btnViewBill
 			// 
-			this.btnViewBill.Location = new System.Drawing.Point(407, 12);
+			this.btnViewBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnViewBill.Location = new System.Drawing.Point(285, 1);
 			this.btnViewBill.Name = "btnViewBill";
-			this.btnViewBill.Size = new System.Drawing.Size(133, 23);
+			this.btnViewBill.Size = new System.Drawing.Size(133, 49);
 			this.btnViewBill.TabIndex = 3;
 			this.btnViewBill.Text = "Thống kê";
 			this.btnViewBill.UseVisualStyleBackColor = true;
@@ -210,7 +224,7 @@
 			this.dtpFromDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
 			this.dtpFromDate.Location = new System.Drawing.Point(14, 13);
 			this.dtpFromDate.Name = "dtpFromDate";
-			this.dtpFromDate.Size = new System.Drawing.Size(229, 22);
+			this.dtpFromDate.Size = new System.Drawing.Size(226, 22);
 			this.dtpFromDate.TabIndex = 1;
 			// 
 			// panel1
@@ -229,8 +243,9 @@
 			this.dtgvBill.Name = "dtgvBill";
 			this.dtgvBill.RowHeadersWidth = 51;
 			this.dtgvBill.RowTemplate.Height = 24;
-			this.dtgvBill.Size = new System.Drawing.Size(903, 432);
+			this.dtgvBill.Size = new System.Drawing.Size(903, 426);
 			this.dtgvBill.TabIndex = 0;
+			this.dtgvBill.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBill_CellContentClick);
 			// 
 			// tpFood
 			// 
@@ -241,7 +256,7 @@
 			this.tpFood.Location = new System.Drawing.Point(4, 25);
 			this.tpFood.Name = "tpFood";
 			this.tpFood.Padding = new System.Windows.Forms.Padding(3);
-			this.tpFood.Size = new System.Drawing.Size(920, 500);
+			this.tpFood.Size = new System.Drawing.Size(932, 535);
 			this.tpFood.TabIndex = 1;
 			this.tpFood.Text = "Thức ăn";
 			this.tpFood.UseVisualStyleBackColor = true;
@@ -264,6 +279,8 @@
 			// 
 			// btnSearchFood
 			// 
+			this.btnSearchFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSearchFood.ForeColor = System.Drawing.Color.Red;
 			this.btnSearchFood.Location = new System.Drawing.Point(302, 3);
 			this.btnSearchFood.Name = "btnSearchFood";
 			this.btnSearchFood.Size = new System.Drawing.Size(94, 57);
@@ -285,6 +302,7 @@
 			// 
 			// btnShowFood
 			// 
+			this.btnShowFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnShowFood.Location = new System.Drawing.Point(379, 6);
 			this.btnShowFood.Name = "btnShowFood";
 			this.btnShowFood.Size = new System.Drawing.Size(94, 57);
@@ -295,6 +313,7 @@
 			// 
 			// btnEditFood
 			// 
+			this.btnEditFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditFood.Location = new System.Drawing.Point(257, 6);
 			this.btnEditFood.Name = "btnEditFood";
 			this.btnEditFood.Size = new System.Drawing.Size(94, 57);
@@ -305,6 +324,7 @@
 			// 
 			// btnDeleteFood
 			// 
+			this.btnDeleteFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteFood.Location = new System.Drawing.Point(136, 3);
 			this.btnDeleteFood.Name = "btnDeleteFood";
 			this.btnDeleteFood.Size = new System.Drawing.Size(94, 57);
@@ -315,6 +335,7 @@
 			// 
 			// btnAddFood
 			// 
+			this.btnAddFood.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnAddFood.Location = new System.Drawing.Point(18, 3);
 			this.btnAddFood.Name = "btnAddFood";
 			this.btnAddFood.Size = new System.Drawing.Size(94, 57);
@@ -475,7 +496,7 @@
 			this.tbFoodCategory.Location = new System.Drawing.Point(4, 25);
 			this.tbFoodCategory.Name = "tbFoodCategory";
 			this.tbFoodCategory.Padding = new System.Windows.Forms.Padding(3);
-			this.tbFoodCategory.Size = new System.Drawing.Size(920, 500);
+			this.tbFoodCategory.Size = new System.Drawing.Size(932, 535);
 			this.tbFoodCategory.TabIndex = 2;
 			this.tbFoodCategory.Text = "Danh mục";
 			this.tbFoodCategory.UseVisualStyleBackColor = true;
@@ -498,6 +519,8 @@
 			// 
 			// btnSearchCategory
 			// 
+			this.btnSearchCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSearchCategory.ForeColor = System.Drawing.Color.Red;
 			this.btnSearchCategory.Location = new System.Drawing.Point(302, 3);
 			this.btnSearchCategory.Name = "btnSearchCategory";
 			this.btnSearchCategory.Size = new System.Drawing.Size(94, 57);
@@ -592,6 +615,7 @@
 			// 
 			// btnShowCategory
 			// 
+			this.btnShowCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnShowCategory.Location = new System.Drawing.Point(379, 6);
 			this.btnShowCategory.Name = "btnShowCategory";
 			this.btnShowCategory.Size = new System.Drawing.Size(94, 57);
@@ -602,6 +626,7 @@
 			// 
 			// btnEditCategory
 			// 
+			this.btnEditCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditCategory.Location = new System.Drawing.Point(257, 6);
 			this.btnEditCategory.Name = "btnEditCategory";
 			this.btnEditCategory.Size = new System.Drawing.Size(94, 57);
@@ -612,6 +637,7 @@
 			// 
 			// btnDeleteCategory
 			// 
+			this.btnDeleteCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteCategory.Location = new System.Drawing.Point(136, 3);
 			this.btnDeleteCategory.Name = "btnDeleteCategory";
 			this.btnDeleteCategory.Size = new System.Drawing.Size(94, 57);
@@ -622,6 +648,7 @@
 			// 
 			// btnAddCategory
 			// 
+			this.btnAddCategory.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnAddCategory.Location = new System.Drawing.Point(18, 3);
 			this.btnAddCategory.Name = "btnAddCategory";
 			this.btnAddCategory.Size = new System.Drawing.Size(94, 57);
@@ -638,7 +665,7 @@
 			this.tpTable.Location = new System.Drawing.Point(4, 25);
 			this.tpTable.Name = "tpTable";
 			this.tpTable.Padding = new System.Windows.Forms.Padding(3);
-			this.tpTable.Size = new System.Drawing.Size(920, 500);
+			this.tpTable.Size = new System.Drawing.Size(932, 535);
 			this.tpTable.TabIndex = 3;
 			this.tpTable.Text = "Bàn ăn";
 			this.tpTable.UseVisualStyleBackColor = true;
@@ -756,6 +783,7 @@
 			// 
 			// btnShowTable
 			// 
+			this.btnShowTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnShowTable.Location = new System.Drawing.Point(379, 6);
 			this.btnShowTable.Name = "btnShowTable";
 			this.btnShowTable.Size = new System.Drawing.Size(94, 57);
@@ -766,6 +794,7 @@
 			// 
 			// btnEditTable
 			// 
+			this.btnEditTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditTable.Location = new System.Drawing.Point(257, 6);
 			this.btnEditTable.Name = "btnEditTable";
 			this.btnEditTable.Size = new System.Drawing.Size(94, 57);
@@ -776,6 +805,7 @@
 			// 
 			// btnDeleteTable
 			// 
+			this.btnDeleteTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteTable.Location = new System.Drawing.Point(136, 3);
 			this.btnDeleteTable.Name = "btnDeleteTable";
 			this.btnDeleteTable.Size = new System.Drawing.Size(94, 57);
@@ -786,6 +816,7 @@
 			// 
 			// btnAddTable
 			// 
+			this.btnAddTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnAddTable.Location = new System.Drawing.Point(18, 3);
 			this.btnAddTable.Name = "btnAddTable";
 			this.btnAddTable.Size = new System.Drawing.Size(94, 57);
@@ -802,7 +833,7 @@
 			this.tpAccount.Location = new System.Drawing.Point(4, 25);
 			this.tpAccount.Name = "tpAccount";
 			this.tpAccount.Padding = new System.Windows.Forms.Padding(3);
-			this.tpAccount.Size = new System.Drawing.Size(920, 500);
+			this.tpAccount.Size = new System.Drawing.Size(932, 535);
 			this.tpAccount.TabIndex = 4;
 			this.tpAccount.Text = "Tài khoản";
 			this.tpAccount.UseVisualStyleBackColor = true;
@@ -817,6 +848,18 @@
 			this.panel21.Name = "panel21";
 			this.panel21.Size = new System.Drawing.Size(399, 416);
 			this.panel21.TabIndex = 6;
+			// 
+			// btnResetPassword
+			// 
+			this.btnResetPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnResetPassword.ForeColor = System.Drawing.Color.Red;
+			this.btnResetPassword.Location = new System.Drawing.Point(211, 289);
+			this.btnResetPassword.Name = "btnResetPassword";
+			this.btnResetPassword.Size = new System.Drawing.Size(177, 70);
+			this.btnResetPassword.TabIndex = 2;
+			this.btnResetPassword.Text = "Đặt lại mật khẩu";
+			this.btnResetPassword.UseVisualStyleBackColor = true;
+			this.btnResetPassword.Click += new System.EventHandler(this.btnResetPassword_Click);
 			// 
 			// panel22
 			// 
@@ -924,6 +967,7 @@
 			// 
 			// btnShowAccount
 			// 
+			this.btnShowAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnShowAccount.Location = new System.Drawing.Point(382, 3);
 			this.btnShowAccount.Name = "btnShowAccount";
 			this.btnShowAccount.Size = new System.Drawing.Size(94, 57);
@@ -934,6 +978,7 @@
 			// 
 			// btnEditAccount
 			// 
+			this.btnEditAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnEditAccount.Location = new System.Drawing.Point(258, 3);
 			this.btnEditAccount.Name = "btnEditAccount";
 			this.btnEditAccount.Size = new System.Drawing.Size(94, 57);
@@ -944,6 +989,7 @@
 			// 
 			// btnDeleteAccount
 			// 
+			this.btnDeleteAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnDeleteAccount.Location = new System.Drawing.Point(136, 3);
 			this.btnDeleteAccount.Name = "btnDeleteAccount";
 			this.btnDeleteAccount.Size = new System.Drawing.Size(94, 57);
@@ -954,6 +1000,7 @@
 			// 
 			// btnAddAccount
 			// 
+			this.btnAddAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.btnAddAccount.Location = new System.Drawing.Point(18, 3);
 			this.btnAddAccount.Name = "btnAddAccount";
 			this.btnAddAccount.Size = new System.Drawing.Size(94, 57);
@@ -962,21 +1009,11 @@
 			this.btnAddAccount.UseVisualStyleBackColor = true;
 			this.btnAddAccount.Click += new System.EventHandler(this.btnAddAccount_Click);
 			// 
-			// btnResetPassword
-			// 
-			this.btnResetPassword.Location = new System.Drawing.Point(262, 289);
-			this.btnResetPassword.Name = "btnResetPassword";
-			this.btnResetPassword.Size = new System.Drawing.Size(126, 61);
-			this.btnResetPassword.TabIndex = 2;
-			this.btnResetPassword.Text = "Đặt lại mật khẩu";
-			this.btnResetPassword.UseVisualStyleBackColor = true;
-			this.btnResetPassword.Click += new System.EventHandler(this.btnResetPassword_Click);
-			// 
 			// fAdmin
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(940, 577);
+			this.ClientSize = new System.Drawing.Size(964, 588);
 			this.Controls.Add(this.tcAdmin);
 			this.Name = "fAdmin";
 			this.Text = "fAdmin";
@@ -1123,5 +1160,6 @@
 		private System.Windows.Forms.TextBox txbSearchCategory;
 		private System.Windows.Forms.Button btnSearchCategory;
 		private System.Windows.Forms.Button btnResetPassword;
+		private System.Windows.Forms.Button btnXuatExcel;
 	}
 }

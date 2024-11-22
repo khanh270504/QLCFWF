@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\fadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,8 +15,80 @@
       "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\ftablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\ftablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\ftablemanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\ftablemanager.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\fooddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\fooddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\ftablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\ftablemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\faccountprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dto\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dto\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\food.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dto\\catagory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\catagory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dao\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\tabledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dao\\menudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\menudao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dao\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\categorydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|c:\\users\\thanh\\source\\repos\\appquanlyquancaphe\\appquanlyquancaphe\\dao\\billinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\billinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,26 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dto\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\billdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\fadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\dao\\fooddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|solutionrelative:appquanlyquancaphe\\dao\\fooddao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4AEC1F8-08AB-47E2-8964-B0A57EFB5030}|AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe.csproj|C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\appquanlyquancaphe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,75 +126,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "fLogin.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fLogin.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fLogin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:05:58.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "fLogin.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fLogin.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs [Design]",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:05:50.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AccountDAO.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAADwv0wAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:02:45.706Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Account.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Account.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Account.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Account.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:57:32.19Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fTableManager.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAwwIUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:38:05.984Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "fAdmin.cs",
               "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAdmin.cs",
               "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fAdmin.cs",
               "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAdmin.cs",
               "RelativeToolTip": "AppQuanLyQuanCaPhe\\fAdmin.cs",
-              "ViewState": "AgIAALkBAAAAAAAAAAAUwL0BAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAOwAAAAAAAAAAIAwwPkAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T14:16:07.69Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoodDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAnwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:38:14.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fTableManager.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.Designer.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fTableManager.Designer.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.Designer.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fTableManager.Designer.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:03:39.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fTableManager.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs [Design]",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fTableManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:50:32.309Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -153,42 +184,58 @@
               "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAdmin.cs [Design]",
               "RelativeToolTip": "AppQuanLyQuanCaPhe\\fAdmin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:50:29.813Z"
+              "WhenOpened": "2024-11-15T14:50:29.813Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fAccountProfile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAccountProfile.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fAccountProfile.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAccountProfile.cs [Design]",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fAccountProfile.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:07:06.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "fTableManager.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fTableManager.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAEwOoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:38:05.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.Designer.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.Designer.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fLogin.Designer.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAYwJgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:37:01.468Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "BillDAO.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAjwBkAAAAUAAAAAAAAAA==",
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fLogin.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs [Design]",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:38:12.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "fTableManager.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fTableManager.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fTableManager.cs [Design]",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fTableManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:50:32.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FoodDAO.cs",
-              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
-              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
-              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
-              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\FoodDAO.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAnwEoAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:38:14.267Z"
+              "WhenOpened": "2024-11-19T15:05:50.195Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -198,13 +245,196 @@
               "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fAdmin.Designer.cs",
               "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fAdmin.Designer.cs",
               "RelativeToolTip": "AppQuanLyQuanCaPhe\\fAdmin.Designer.cs",
-              "ViewState": "AgIAAK8DAAAAAAAAAAD4v8IDAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPMDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:57:13.328Z"
+              "WhenOpened": "2024-11-19T13:57:13.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Table.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Table.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Table.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:42.798Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Menu.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Menu.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Menu.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:42.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Food.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Food.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Food.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Food.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Food.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:40.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Catagory.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Catagory.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Catagory.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Catagory.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Catagory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:39.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Bill.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Bill.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Bill.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Bill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:39.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TableDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\TableDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\TableDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\TableDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\TableDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:37.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\MenuDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\MenuDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\MenuDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\MenuDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:37.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\CategoryDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\CategoryDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\CategoryDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\CategoryDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:35.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BillInfoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillInfoDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\BillInfoDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillInfoDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\BillInfoDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:39:34.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\AccountDAO.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwv0wAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:02:45.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Account.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DTO\\Account.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DTO\\Account.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DTO\\Account.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:57:32.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\DataProvider.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\DataProvider.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\DataProvider.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\DataProvider.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:49:41.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\fLogin.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\fLogin.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\fLogin.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:05:58.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BillDAO.cs",
+              "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
+              "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
+              "ToolTip": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
+              "RelativeToolTip": "AppQuanLyQuanCaPhe\\DAO\\BillDAO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIA4wBkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:38:12.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\THANH\\source\\repos\\AppQuanLyQuanCaPhe\\AppQuanLyQuanCaPhe\\Program.cs",
               "RelativeDocumentMoniker": "AppQuanLyQuanCaPhe\\Program.cs",
@@ -212,7 +442,8 @@
               "RelativeToolTip": "AppQuanLyQuanCaPhe\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T14:05:54.811Z"
+              "WhenOpened": "2024-11-19T14:05:54.811Z",
+              "EditorCaption": ""
             }
           ]
         }
