@@ -18,6 +18,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 
+using Excel = Microsoft.Office.Interop.Excel;
 
 namespace AppQuanLyQuanCaPhe
 {
@@ -538,38 +539,94 @@ namespace AppQuanLyQuanCaPhe
 			ResetPass(userName);
 		}
 
-		private void btnXuatExcel_Click(object sender, EventArgs e)
-		{
-			Microsoft.Office.Interop.Excel.Application excelApp = new Microsoft.Office.Interop.Excel.Application();
-			excelApp.Visible = true; 
 
-			
-			Microsoft.Office.Interop.Excel.Workbook workbook = excelApp.Workbooks.Add(Type.Missing);
-			Microsoft.Office.Interop.Excel.Worksheet worksheet = workbook.Sheets[1];
-			worksheet.Name = "Dữ liệu từ DataGridView";
+        private void btnXuatExcel_Click(object sender, EventArgs e)
+        {
+           
+            Excel.Application excelApp = new Excel.Application();
+            excelApp.Visible = true;
 
-		
-			for (int i = 1; i <= dtgvBill.Columns.Count; i++)
-			{
-				worksheet.Cells[1, i] = dtgvBill.Columns[i - 1].HeaderText;
-			}
+          
+            Excel.Workbook workbook = excelApp.Workbooks.Add(Type.Missing);
+            Excel.Worksheet worksheet = workbook.Sheets[1];
+            worksheet.Name = "Bảng thống kê";
 
-			// Ghi dữ liệu từ DataGridView vào Excel
-			for (int i = 0; i < dtgvBill.Rows.Count; i++)
-			{
-				for (int j = 0; j < dtgvBill.Columns.Count; j++)
-				{
-					worksheet.Cells[i + 2, j + 1] = dtgvBill.Rows[i].Cells[j].Value?.ToString();
-				}
-			}
-			worksheet.Columns.AutoFit();
-		}
+          
+            int columnCount = dtgvBill.Columns.Count;
 
-		private void dtgvBill_CellContentClick(object sender, DataGridViewCellEventArgs e)
-		{
+            
+            worksheet.Cells[1, 1] = "BẢNG THỐNG KÊ DOANH THU QUÁN CÀ PHÊ";
+            Excel.Range titleRange = worksheet.Range[worksheet.Cells[1, 1], worksheet.Cells[1, columnCount]]; 
+            titleRange.Merge(); // Gộp ô
+            titleRange.Font.Size = 16;
+            titleRange.Font.Bold = true;
+            titleRange.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+            titleRange.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+            titleRange.WrapText = true;  // Đảm bảo văn bản được xuống dòng khi quá dài
 
-		}
-	}
+            
+            worksheet.Cells[2, 1] = $"Ngày xuất: {DateTime.Now:dd/MM/yyyy}";
+            Excel.Range dateRange = worksheet.Range[worksheet.Cells[2, 1], worksheet.Cells[2, columnCount]];
+            dateRange.Merge(); // Gộp ô
+            dateRange.Font.Size = 12;
+            dateRange.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+            dateRange.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+
+           
+            Excel.Range headerRange = worksheet.Range[worksheet.Cells[4, 1], worksheet.Cells[4, columnCount]];
+            headerRange.Font.Bold = true;
+            headerRange.Font.Size = 12;
+            headerRange.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.LightGray);
+            headerRange.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+
+            
+            for (int i = 1; i <= dtgvBill.Columns.Count; i++)
+            {
+                worksheet.Cells[4, i] = dtgvBill.Columns[i - 1].HeaderText;
+            }
+
+          
+            for (int i = 0; i < dtgvBill.Rows.Count; i++)
+            {
+                for (int j = 0; j < dtgvBill.Columns.Count; j++)
+                {
+                    var cellValue = dtgvBill.Rows[i].Cells[j].Value;
+                    var cell = worksheet.Cells[i + 5, j + 1];
+
+                   
+                    if (cellValue is int || cellValue is decimal || cellValue is double)
+                    {
+                        cell.Value = cellValue;
+                    }
+                    else if (cellValue is DateTime)
+                    {
+                        cell.NumberFormat = "dd/MM/yyyy"; 
+                        cell.Value = cellValue;
+                    }
+                    else
+                    {
+                        cell.Value = cellValue?.ToString(); 
+                    }
+                }
+            }
+
+           
+            Excel.Range dataRange = worksheet.Range[worksheet.Cells[4, 1], worksheet.Cells[dtgvBill.Rows.Count + 4, columnCount]];
+            dataRange.Borders.LineStyle = Excel.XlLineStyle.xlContinuous;
+            dataRange.Borders.Weight = Excel.XlBorderWeight.xlThin;
+
+            
+            worksheet.Columns.AutoFit();
+
+           
+            MessageBox.Show("Xuất dữ liệu ra Excel thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+
+
+
+
+    }
 
 }
 

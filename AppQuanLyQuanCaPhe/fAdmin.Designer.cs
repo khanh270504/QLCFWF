@@ -245,7 +245,7 @@
 			this.dtgvBill.RowTemplate.Height = 24;
 			this.dtgvBill.Size = new System.Drawing.Size(903, 426);
 			this.dtgvBill.TabIndex = 0;
-			this.dtgvBill.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBill_CellContentClick);
+			
 			// 
 			// tpFood
 			// 
